@@ -1,5 +1,5 @@
 Description: > 
-            deploy diagram course
+           Project 2 Network deploy - Samy Tahar
 
 
 Parameters:
@@ -218,7 +218,7 @@ Resources:
         RouteTableIds:
           - !Ref PrivateRouteTable1
           - !Ref PrivateRouteTable2
-        ServiceName: !Sub com.amazonaws.eu-central-1.s3
+        ServiceName: !Ref S3Region
         VpcId: !Ref VPC
 
 

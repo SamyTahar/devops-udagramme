@@ -1,5 +1,5 @@
 Description: >
-    Samy Tahar / Udacity 2020 COVID-19 training
+     Project 2 Server deploy - Samy Tahar
 
 Parameters:
 
@@ -69,7 +69,7 @@ Resources:
               sudo aws s3 cp s3://udacity-demo-1/udacity.zip .
               sudo unzip -o udacity.zip
           ImageId: ami-0b418580298265d5c
-          #KeyName: udacity-devops
+          #KeyName: None
           SecurityGroups:
           - Ref: WebServerSecGroup
           InstanceType: t3.small

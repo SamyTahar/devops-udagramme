@@ -12,5 +12,9 @@ High availability architecture using auto scaling and private S3 bucket to load 
 
 
 ### How to run the cloudformation script  
-#### Use AWS CLI :
-aws cloudformation create-stack --stack-name NameOfYouStack --region YourRegion --template-body file://yourFile.yml|json --parameters file://yourFile.json --capabilities "CAPABILITY_IAM" "CAPABILITY_NAMED_IAM"
+
+#### Use AWS CLI Create :
+aws cloudformation create-stack --stack-name NameOfYouStack --yourRegion YourRegion --template-body file://yourFile.yml|json --parameters file://yourFile.json --capabilities "CAPABILITY_IAM" "CAPABILITY_NAMED_IAM"
+
+#### Use AWS CLI delete :
+aws cloudformation delete-stack --stack-name NameOfYouStack --region YourRegion 
