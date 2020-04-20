@@ -11,6 +11,6 @@ Height available architecture using auto scaling and private S3 bucket to load t
 ![40% center](https://github.com/SamyTahar/devops-udagramme/blob/master/udacity_project2_archi.png )
 
 
-### how to run the cloudformation script Run 
-Use AWS CLI :
+### How to run the cloudformation script  
+#### Use AWS CLI :
 aws cloudformation create-stack --stack-name NameOfYouStack --region YourRegion --template-body file://yourFile.yml|json --parameters file://yourFile.json --capabilities "CAPABILITY_IAM" "CAPABILITY_NAMED_IAM"
