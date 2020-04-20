@@ -1,6 +1,6 @@
 # Project 2 Cloudformation Script
 
-Height available architecture using auto scaling and private S3 bucket to load the app to be deploy within the EC2 instance
+High availability architecture using auto scaling and private S3 bucket to load the app to be deploy within the EC2 instance
 
 ### Todo
 * Route 53
